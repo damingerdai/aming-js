@@ -1,0 +1,31 @@
+{
+  "name": "aming",
+  "version": "0.0.1",
+  "description": "a mvvm framework like angularjs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "preinstall": "node tools/yarn/check-yarn.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damingerdai/aming-js.git"
+  },
+  "keywords": [
+    "aming-js"
+  ],
+  "author": "arthur ming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damingerdai/aming-js/issues"
+  },
+  "homepage": "https://github.com/damingerdai/aming-js#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "husky": "^3.0.0"
+  }
+}
